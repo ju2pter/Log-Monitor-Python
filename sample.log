@@ -1,0 +1,12 @@
+INFO User login successful
+WARNING Disk space low
+ERROR Failed login attempt
+INFO System started
+ERROR Database connection failed
+
+Feb 10 10:15:32 Failed password for invalid user admin from 192.168.0.10
+Feb 10 10:15:35 Failed password for invalid user admin from 192.168.0.10
+Feb 10 10:15:40 Failed password for invalid user root from 192.168.0.11
+Feb 10 10:16:02 Accepted password for juliana from 192.168.0.15
+Feb 10 10:16:45 Failed password for invalid user test from 192.168.0.10
+Feb 10 10:17:10 Failed password for invalid user admin from 192.168.0.10
