@@ -1,26 +1,65 @@
-# 🔍 Log Monitor & Suspicious Activity Detector
+# 🔍 Log Monitor Python
 
-This project analyzes system log files to detect suspicious activity such as repeated failed login attempts.
+This project simulates a simple log monitoring system used in IT environments to detect errors, warnings, and suspicious activity.
 
-## 🚀 Features
+## 📌 Purpose
 
-- Detects repeated failed login attempts
-- Identifies suspicious IP addresses
-- Generates a simple security report
+Log monitoring is essential for:
 
-## 🛠 Technologies
+- detecting security incidents
+- identifying system failures
+- preventing downtime
+- supporting incident response
 
-- Python
-- Log analysis
-- Basic security monitoring
+This script analyzes a log file and highlights critical events.
 
-## ▶️ How to run
+## ⚙️ Technologies
 
-1. Clone the repository
-2. Run:
+- Python 3
+- File handling
+- Pattern detection
+
+## 📂 Project Structure
+
+log_monitor.py → main script  
+sample.log → simulated log file  
+
+## ▶️ How to Run
+
+1. Clone the repository:
+
+git clone https://github.com/ju2pter/log-monitor-python.git
+
+
+2. Navigate to the folder:
+
+cd log-monitor-python
+
+
+3. Run the script:
 
 python log_monitor.py
 
-## 🎯 Purpose
 
-This project demonstrates basic security monitoring techniques used in real-world environments such as SOC teams and IT infrastructure monitoring.
+## 🖥️ Example Output
+
+Errors found:
+- Failed login attempt
+- Database connection failed
+
+Warnings found:
+- Disk space low
+
+## 🎯 Skills Demonstrated
+
+✔ Log analysis fundamentals  
+✔ Security monitoring concepts  
+✔ Python automation  
+✔ Incident detection basics  
+
+---
+
+💡 This project simulates real-world monitoring practices used in cybersecurity and infrastructure environments.
+
+
+
